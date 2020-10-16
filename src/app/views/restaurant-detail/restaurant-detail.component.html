@@ -1,0 +1,24 @@
+<mat-card class="card">
+    <div class="content">
+        <img [src]="restaurant?.imagePath" />
+        <div>
+            <h1>{{restaurant?.name}}</h1>
+            <h1>Categoria</h1>
+            <h3>{{restaurant?.category}}</h3>
+            <h1>Quem Somos</h1>
+            <h3>{{restaurant?.about}}</h3>
+            <h1>Horários</h1>
+            <h3>{{restaurant?.hours}}</h3>
+        </div>
+    </div>
+
+    <div class="toolbar">
+        <a routerLinkActive="detail-active" [routerLink]="['menu']">
+            Menu
+        </a>
+        <a routerLinkActive="detail-active" [routerLink]="['reviews']">
+            Avaliações
+        </a>
+    </div>
+</mat-card>
+<router-outlet></router-outlet>

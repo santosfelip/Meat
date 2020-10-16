@@ -1,0 +1,9 @@
+<mat-toolbar class="header">
+    <mat-toolbar-row class="toolbar">
+        <span><a [routerLink]="['/']">{{Title}}</a></span>
+        <ul>
+            <li routerLinkActive="active"><a [routerLink]="['/restaurants']">Restaurantes</a></li>
+            <li routerLinkActive="active"><a [routerLink]="['/about']">Sobre</a></li>
+        </ul>
+    </mat-toolbar-row>
+</mat-toolbar>

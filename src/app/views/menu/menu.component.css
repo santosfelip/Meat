@@ -1,0 +1,33 @@
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    float: left;
+    width: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+    img {
+        float: left;
+        width: 70px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 15px;
+        color: #555;
+    }
+    .content {
+        margin-left: 10px;
+    }
+    .card {
+        height: auto;
+    }
+}

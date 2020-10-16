@@ -1,0 +1,16 @@
+<mat-card class="card">
+    <a [routerLink]="['/restaurants', restaurant.id]">
+        <div class="container">
+            <img [src]="restaurant.imagePath" />
+
+            <div class="content">
+                <div class="title">
+                    <h1>{{restaurant.name | uppercase}}</h1>
+                    <h4>{{restaurant.rating}}</h4>
+                </div>
+                <p>{{restaurant.category}}</p>
+                <p>{{restaurant.deliveryEstimate}}</p>
+            </div>
+        </div>
+    </a>
+</mat-card>

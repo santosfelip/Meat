@@ -1,0 +1,8 @@
+<div>
+    <h1>Todos os Restaurantes</h1>
+    <div class="container">
+        <div *ngFor="let restaurant of restaurants">
+            <app-restaurant-creat [restaurant]="restaurant"></app-restaurant-creat>
+        </div>
+    </div>
+</div>
