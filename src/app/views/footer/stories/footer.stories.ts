@@ -1,7 +1,7 @@
 import { FooterComponent } from '../footer.component'
 
 export default {
-    title: 'FooterComponent',
+    title: 'MEAT/Footer',
     component: FooterComponent
 }
 

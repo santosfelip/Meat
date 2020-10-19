@@ -11,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
     styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-    public menus: Menu[];
+    public menus: Menu[] = [];
 
     constructor(private menuService: MenuService,
         private route: ActivatedRoute) { }
